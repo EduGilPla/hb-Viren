@@ -1,6 +1,6 @@
 import './App.css'
 
-function App() {
+export const App = () => {
 
   return (
     <>
@@ -19,16 +19,14 @@ function App() {
         (No seas tramposo, no vale usar el F12)
       </p>
       <button onClick={hideAllElements}>
-          Empezar
+        Empezar
       </button>
     </>
   )
 }
 
-function hideAllElements() {
-  let childNodes = document.getElementById("root").childNodes
+const hideAllElements = () => {
+  let childNodes = document.getElementById("root")?.childNodes
 
-  childNodes.forEach(e => e.classList.add("begone"))
+  childNodes?.forEach(e => e.classList.add("begone"))
 }
-
-export default App
