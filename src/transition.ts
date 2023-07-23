@@ -1,11 +1,14 @@
-import * as ReactDOM from "react-dom";
+import { createRoot } from "react-dom/client";
 
 export const transitionTo = async (next: JSX.Element) => {
-    let childNodes = document.getElementById("root")?.childNodes
+    const childNodes = document.getElementById("root")?.childNodes
     childNodes?.forEach(e => (e as Element).classList.add("begone"))
 
-    await new Promise(r => setTimeout(r, 2000));
+    await new Promise(r => setTimeout(r, 1000));
+    createRoot(document.getElementById('root')!).render(next);
 
-    const root = document.getElementById("root")
-    ReactDOM.render(next,root)
+    await new Promise(r => setTimeout(r, 200));
+
+    const incomingElement = document.getElementsByClassName("incomingElement")[0];
+    incomingElement.classList.remove("incomingElement");
 }
