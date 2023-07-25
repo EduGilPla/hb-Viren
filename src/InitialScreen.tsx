@@ -15,8 +15,10 @@ export const InitialScreen = () => {
                 <p>
                     Pero vas a tener que resolver unos acertijos para llegar hasta ella...
                 </p>
+                <br />
+                <br />
                 <p>
-                    NO HAGAS NADA
+                    NO HAGAS NADA POR AHORA
                 </p>
             </div>
             <button onClick={() => transitionTo(Hypnosis())}>

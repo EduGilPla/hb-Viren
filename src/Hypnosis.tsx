@@ -1,5 +1,5 @@
 
-import { InitialScreen } from "./InitialScreen"
+import { First } from "./First"
 import { transitionTo } from "./transition"
 
 export const Hypnosis = () => {
@@ -18,8 +18,8 @@ export const Hypnosis = () => {
                     Es en serio, por favor no mires el código. Hemos tenido que cometer 25 crímenes de Guerra en Yugoslavia para hacer esta página
                 </p>
             </div>
-            <button onClick={() => transitionTo(InitialScreen())}>
-                Me comprometo a actuar como Viren(estudiante de filosofía's version)
+            <button onClick={() => transitionTo(First())}>
+                Me comprometo a actuar como Viren(modelo de pasarela's version)
             </button>
         </div>
     )
