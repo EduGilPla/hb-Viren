@@ -19,7 +19,7 @@ export const Hypnosis = () => {
                 </p>
             </div>
             <button onClick={() => transitionTo(First())}>
-                Me comprometo a actuar como Viren(modelo de pasarela's version)
+                Me comprometo a actuar como Viren (modelo de pasarela's version)
             </button>
         </div>
     )
