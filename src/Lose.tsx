@@ -12,6 +12,10 @@ export const Lose = () => {
                     Esperábamos más de ti Viren
                 </h3>
             </div>
+            <div className="photos">
+                <img src="/public/DanielTrabado.jpg" alt=""/>
+                <img src="/public/EduardoTrabado.jpg" alt="" />
+            </div>
             <button onClick={() => transitionTo(First())}>
                 Vuelve a empezar por bobo (haber hecho una bobería***)
             </button>
