@@ -10,7 +10,7 @@ export const Second = () => {
             <h1>SEGUNDA PREGUNTA</h1>
             <div className="card">
                 <h3>
-                    ¿Cuál fue el día en el que quedaste con el amor de tu vida (Eduardo Gil Plasencia) por primera vez?
+                    ¿Cuál fue el día en el que Viren quedó con el amor de tu vida (Eduardo Gil Plasencia) por primera vez?
                 </h3>
             </div>
             <div className="answers">
