@@ -102,6 +102,10 @@ div {
   color: #888;
 }
 
+#JumpKing {
+  margin-right: 10em;
+}
+
 .begone {
   transition: linear;
   transition-property: transform;
