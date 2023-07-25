@@ -1,4 +1,4 @@
-import { FirstTrial } from "./FirstTrial"
+import { Hypnosis } from "./Hypnosis"
 import { transitionTo } from "./transition"
 
 export const InitialScreen = () => {
@@ -19,7 +19,7 @@ export const InitialScreen = () => {
             <p className="read-the-docs">
                 (No seas tramposo, no vale usar el F12)
             </p>
-            <button onClick={() => transitionTo(FirstTrial())}>
+            <button onClick={() => transitionTo(Hypnosis())}>
                 Empezar
             </button>
         </>

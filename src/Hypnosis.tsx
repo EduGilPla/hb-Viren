@@ -1,10 +1,11 @@
 
+import { InitialScreen } from "./InitialScreen"
 import { transitionTo } from "./transition"
 
 export const Hypnosis = () => {
 
     return (
-        <>
+        <div className="incomingElement">
             <h1>¡Hipnotízate!</h1>
             <div className="card">
                 <h3>
@@ -19,9 +20,9 @@ export const Hypnosis = () => {
             <p className="read-the-docs">
                 (No seas tramposo, no vale usar el F12)
             </p>
-            <button onClick={() => transitionTo()}>
+            <button onClick={() => transitionTo(InitialScreen())}>
                 Empezar
             </button>
-        </>
+        </div>
     )
 }
