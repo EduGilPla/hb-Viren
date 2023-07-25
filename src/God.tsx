@@ -1,3 +1,4 @@
+import { End } from "./End"
 import { transitionTo } from "./transition"
 
 export const God = () => {
@@ -7,7 +8,7 @@ export const God = () => {
             <h1>FIND GOD</h1>
             <img src="/public/Jesus.jpg" alt="" className="God" />
             <div className="answers">
-                <button onClick={() => transitionTo(Fourth())}>
+                <button onClick={() => transitionTo(End())}>
                     Be better
                 </button>
             </div>
