@@ -15,12 +15,12 @@ export const InitialScreen = () => {
                 <p>
                     Pero vas a tener que resolver unos acertijos para llegar hasta ella...
                 </p>
+                <p>
+                    NO HAGAS NADA
+                </p>
             </div>
-            <p className="read-the-docs">
-                (No seas tramposo, no vale usar el F12)
-            </p>
             <button onClick={() => transitionTo(Hypnosis())}>
-                Empezar
+                SOLO HAZ CLICK AQUÍ
             </button>
         </>
     )

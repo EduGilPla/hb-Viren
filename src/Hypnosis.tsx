@@ -9,19 +9,17 @@ export const Hypnosis = () => {
             <h1>¡Hipnotízate!</h1>
             <div className="card">
                 <h3>
-                    ¡Esta es nuestra felicitación por tu cumpleaños!
+                    ¡No sabes y nunca has sabido nada de informática!
                 </h3>
             </div>
+            <img src="Hypnosis.gif" height="300em" />
             <div className="secondaryCard">
                 <p>
-                    Pero vas a tener que resolver unos acertijos para llegar hasta ella...
+                    Es en serio, por favor no mires el código. Hemos tenido que cometer 25 crímenes de Guerra en Yugoslavia para hacer esta página
                 </p>
             </div>
-            <p className="read-the-docs">
-                (No seas tramposo, no vale usar el F12)
-            </p>
             <button onClick={() => transitionTo(InitialScreen())}>
-                Empezar
+                Me comprometo a actuar como Viren(estudiante de filosofía's version)
             </button>
         </div>
     )
