@@ -4,7 +4,7 @@ export const transitionTo = async (next: JSX.Element) => {
     const childNodes = document.getElementById("root")?.childNodes
     childNodes?.forEach(e => (e as Element).classList.add("begone"))
 
-    await new Promise(r => setTimeout(r, 1000));
+    await new Promise(r => setTimeout(r, 500));
     createRoot(document.getElementById('root')!).render(next);
 
     await new Promise(r => setTimeout(r, 200));

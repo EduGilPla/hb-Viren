@@ -109,13 +109,14 @@ div {
 .begone {
   transition: linear;
   transition-property: transform;
-  transition-duration: 1.5s;
+  transition-duration: 0.5s;
   transform: translateY(100vh);
 }
 
 .incomingElement {
   transition: none;
   transition-property: none;
+  transition-duration: 0.5s;
   transform: translateY(-100vh);
 }
 
