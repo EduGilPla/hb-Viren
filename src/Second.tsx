@@ -1,7 +1,6 @@
 
 import { Fourth } from "./Fourth"
 import { Lose } from "./Lose"
-import { Third } from "./Third"
 import { transitionTo } from "./transition"
 
 export const Second = () => {
