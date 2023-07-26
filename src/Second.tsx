@@ -1,4 +1,5 @@
 
+import { Fourth } from "./Fourth"
 import { Lose } from "./Lose"
 import { Third } from "./Third"
 import { transitionTo } from "./transition"
@@ -20,7 +21,7 @@ export const Second = () => {
                 <button onClick={() => transitionTo(Lose())}>
                     16/09/2023
                 </button>
-                <button onClick={() => transitionTo(Third())}>
+                <button onClick={() => transitionTo(Fourth())}>
                     16/09/2022
                 </button>
                 <button onClick={() => transitionTo(Lose())}>
