@@ -13,8 +13,8 @@ export const Lose = () => {
                 </h3>
             </div>
             <div className="photos">
-                <img src="/public/DanielTrabado.jpg" alt=""/>
-                <img src="/public/EduardoTrabado.jpg" alt="" />
+                <img src="DanielTrabado.jpg" alt=""/>
+                <img src="EduardoTrabado.jpg" alt="" />
             </div>
             <button onClick={() => transitionTo(First())}>
                 Vuelve a empezar por bobo (haber hecho una bobería***)

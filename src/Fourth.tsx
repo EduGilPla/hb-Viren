@@ -14,11 +14,11 @@ export const Fourth = () => {
                 </h3>
             </div>
             <div className="photoAnswers">
-                <img src="/public/CloseEnoughGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
-                <img src="/public/WheresVirenGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
-                <img src="/public/CopypasteGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
-                <img src="/public/GoodGoodMorning.jpeg" alt="" onClick={() => transitionTo(End())}/>
-                <img src="/public/EvenStrongerGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
+                <img src="CloseEnoughGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
+                <img src="WheresVirenGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
+                <img src="CopypasteGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
+                <img src="GoodGoodMorning.jpeg" alt="" onClick={() => transitionTo(End())}/>
+                <img src="EvenStrongerGoodMorning.jpeg" alt="" onClick={() => transitionTo(Lose())}/>
                 
             </div>
         </div>

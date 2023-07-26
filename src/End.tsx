@@ -11,8 +11,8 @@ export const End = () => {
                     Estamos muy orgullosos de ti, muchísimas felicidades rey te queremos mucho
                 </h2>
                 <div className="photos">
-                    <img src="/public/DaniFeliz.jpg" alt="" />
-                    <img src="/public/EduFeliz.jpg" alt="" />
+                    <img src="DaniFeliz.jpg" alt="" />
+                    <img src="EduFeliz.jpg" alt="" />
                 </div>
                 <button onClick={() => transitionTo(End2())}>
                     Continuar
