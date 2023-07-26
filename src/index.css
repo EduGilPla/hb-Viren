@@ -137,6 +137,18 @@ div {
   transition: background-color 1s linear;
 }
 
+.photoAnswers img {
+  width: 200px;
+  height: 300px;
+  margin: 10px;
+  transition: transform 1s ease-out;
+} 
+.photoAnswers img:hover {
+  transition: transform border 1s ease-out;
+  transform: scale(1.4);
+  border: 1px solid red;
+} 
+
 .photos {
   margin-bottom: 5px;
 }
