@@ -162,3 +162,16 @@ div {
   width: 400px;
   height: 600px;
 }
+
+video {
+  width: 600px;
+  height: 900px;
+  transform: translateY(-25%);
+  z-index: 0;
+}
+
+.finalVideoDiv h1, .finalVideoDiv h3 {
+  color: black;
+  position: relative;
+  z-index: 1;
+}
